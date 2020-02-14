@@ -5,7 +5,7 @@ Feature: As a person from Wales
   Background:
     Given the user is on landing page
 
-  @First
+  @wip
   Scenario Outline: Age under 16 Wales test
     When the user is from Wales
     And the user is less than 17 years of age "<day>" "<month>" "<year>"

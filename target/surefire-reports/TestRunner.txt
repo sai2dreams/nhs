@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.198 sec <<< FAILURE!
+Age under 16 Wales test(As a person from Wales)  Time elapsed: 11.825 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.submit(Unknown Source)
+	at pages.LandingPage.Start(LandingPage.java:29)
+	at steps.WalesSteps.the_user_is_from_Wales(WalesSteps.java:35)
+	at ?.the user is from Wales(file:src/test/resources/features/WalesFeature.feature:10)
+
